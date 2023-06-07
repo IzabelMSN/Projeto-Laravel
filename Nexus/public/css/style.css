@@ -1,0 +1,301 @@
+/*HEADER*/
+.nave{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nave_logo{
+  cursor: pointer;
+  width: 18rem;
+  height: 6rem;
+}
+
+.nave_h2{
+  align-self: center;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer{
+  display: flex;
+}
+
+#footer-logo{
+  width: 30rem;
+  height: 10rem;
+}
+
+.footer-sep{
+  align-self: center;
+  line-height: 25px;
+}
+
+
+/*WELCOME*/
+.swiper {
+  width: 115rem;
+  height: 28rem;
+}
+
+.swiper-slide_img{
+  width: 115rem;
+  height: 36rem;
+}
+
+.swiper-slide_texto{
+  position: relative;
+  bottom: 100%;
+  text-align: -moz-right;
+  margin-right: 10rem;
+}
+
+.a{
+  color: azure;
+}
+
+.b{
+  color: brown;
+}
+
+.swiper-slide_texto-l{
+  position: relative;
+  bottom: 100%;
+  text-align: -moz-left;
+  margin-left: 10rem;
+}
+
+.swiper-slide_h3{
+  margin-bottom: 1.75rem;
+  font-size: 2rem;
+}
+
+.swiper-slide_p{
+  text-align: justify;
+  width: 30rem;
+  line-height: 22px;
+}
+
+#swiper-slide_p-a{
+  color: white;
+  text-decoration: none;
+}
+
+.novidades{
+  background-color: #8fcabf;
+  height: 51rem;
+  width: 111rem;
+  margin: 2rem;
+  border-radius: 2rem;
+}
+
+.novidades-sep{
+  display: flex;
+  flex-direction: row;
+}
+
+#novidades-h2{
+  font-size: 2.75rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.novidades-noticia{
+  display: flex;
+  margin: 2rem 2rem;
+  background-color: #afe1da;
+  border-radius: 1rem;
+  width: 66rem;
+}
+
+.novidades-noticia_img{
+  width: 18rem;
+  height: 18rem;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.novidades-noticia_texto{
+  text-align: justify;
+  width: 31rem;
+  line-height: 25px;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.novidades-noticia_texto h3{
+  font-size: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.novidades-noticia_texto button{
+  margin-top: 0.75rem;
+  color: white;
+  background-color: rgb(247, 61, 61);
+  border: none;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+/*FALEMAIS*/  
+
+.img{
+  min-height: 100%;
+  width: 115rem;
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/img/fale-mais/falemais.jpg) ;
+  margin-left: 3px;
+}
+
+.noticia-completa h3{
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+#noticia-sub{
+  text-align: center;
+  color: rgb(59, 59, 59);
+  font-size: 1.063rem;
+}
+
+.noticia-p{
+  font-size: 1.063rem;
+  line-height: 2.375rem;
+  padding: 3rem 10rem;
+  text-align: justify;
+}
+
+.noticia-p p{
+  margin-bottom: 1rem;
+}
+
+.formulario-sep{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10rem;
+}
+
+.formulario{
+  font-size: 1.563rem;
+  width: 40rem;
+  height: 30rem;
+  background-color: #afe1da;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.form-sep label{
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dife{
+  width: 22rem;
+}
+
+.form-sep select{
+  background: blueviolet;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  width: 5rem;
+  height: 1.75rem;
+  text-align: center;
+  font-size: 1.063rem;
+}
+
+.form-sep{
+  display: flex;
+}
+
+.form-sep_2{
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario legend{
+  margin-bottom: 2rem;
+}
+
+.formulario input{
+  border-radius: 2rem;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.063rem;
+  height: 1rem;
+}
+
+.formulario input[type="number"]{
+  width: 12rem;
+  height: 2rem;
+}
+
+.formulario button{
+  background: blueviolet;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+
+.resultado{
+  margin: 0 10rem;
+  font-size: 1.563rem;
+  width: 40rem;
+  height: 30rem;
+  background-color: #afe1da;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.resultado h2{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.result-sep{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.result-sep h3{
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.result-sep_2{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-sep_2 legend{
+  margin-bottom: 1rem;
+}
+
+.form-sep_2 input{
+  height: 1rem;
+}
+
+.resultado button{
+  background: blueviolet;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  width: 8rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 20px;
+}
